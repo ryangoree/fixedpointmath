@@ -2,8 +2,6 @@
 resolver = "2"
 members = [
     "crates/fixedpointmath",
-    "crates/hyperdrive-wrappers",
-    "crates/test-utils"
 ]
 
 [workspace.lints.clippy]
