@@ -1,5 +1,3 @@
-hyperdrive
-
 cache/
 out/
 forge-cache/
@@ -9,22 +7,6 @@ broadcast
 node_modules/
 yarn-error.log
 
-# random files on MacOs
-.DS_Store
-
-# python build
-*.egg-info
-*.so
-.cache
-.build
-.python-version
-.venv
-build/
-dist/
-
-# nix/shell extension - https://direnv.net/
-.direnv
-
 # vim
 remappings.txt
 
@@ -32,22 +14,8 @@ remappings.txt
 lcov.info
 coverage_report/
 
-# Ape
-.cache
-
-# Byte-compiled / optimized / DLL files
-__pycache__/
-
-# pytest
-.pytest_cache
-
-# The generated reproduction test.
-test/Generated.t.sol
-
 # Rust
 target/
-crates/hyperdrive-wrappers/debug/
-crates/hyperdrive-wrappers/build.rs
 .rustc_info.json
 
 # Crash Reports
