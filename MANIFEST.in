@@ -1,3 +1,0 @@
-include Cargo.toml
-recursive-include bindings/hyperdrivepy *
-recursive-include crates *
